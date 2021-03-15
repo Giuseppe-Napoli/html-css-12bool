@@ -1,0 +1,72 @@
+ /* contenitore gioco */
+.contenitore{
+  border: 2px solid black;
+  margin: 50px;
+  background-image: linear-gradient(45deg,#1106ea,#2fecd7);
+}
+
+/* caratteristiche colonne */
+[class*="col-"]{
+  margin-top: 1px;
+  height: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 0 0 15px #33363aea;
+}
+
+.container:nth-child(1) > .col-1 {
+  background-color: red;
+}
+
+.container:nth-child(2) > .col-1 {
+  background-color: blue;
+}
+
+.container:nth-child(3) > .col-1 {
+  background-color: yellow;
+}
+
+.container:nth-child(4) > .col-1 {
+  background-color: rgb(68, 185, 14);
+}
+
+.container:nth-child(5) > .col-1 {
+  background-color: rgb(145, 14, 185);
+}
+
+.container:nth-child(6) > .col-1 {
+  background-color: rgb(209, 122, 22);
+}
+
+.col-12, .col-2.col-offset-5{
+  border: none;
+  box-shadow: none;
+}
+
+/* pallina */
+#ball{
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #33363aea;
+}
+
+/* barra in basso */
+.barra .col-2:nth-child(1){
+  border-radius:  10px 0 0 10px;
+  background-color: red;
+  box-shadow: 2px 2px 5px #33363aea;
+}
+
+.barra .col-8{
+  border-radius: 0px;
+  background-color: #D6D8DB;
+  box-shadow: 2px 2px 5px #33363aea;
+}
+
+.barra .col-2:nth-child(3){
+  border-radius: 0 10px  10px 0;
+  background-color: red;
+  box-shadow: 2px 2px 5px #33363aea;
+}

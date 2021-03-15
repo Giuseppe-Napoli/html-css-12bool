@@ -8,7 +8,6 @@
 .container .container > [class*="col-"]{
   background-color: #F08080;
   border: 1px solid white;
-  max-height: 160px;
 }
 
 .container:nth-child(5) > .col-6 {
