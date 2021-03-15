@@ -1,17 +1,16 @@
 [class*="col-"]{
+  padding: 70px 0;
   background-color: #FEC0CB;
   border: 1px solid black;
   text-align: center;
 }
-.container{
-  height: 200px;
-  line-height: 200px;
-}
+
 .container .container > [class*="col-"]{
   background-color: #F08080;
   border: 1px solid white;
+  max-height: 160px;
 }
 
-.container .col-6 > .container{
-  
+.container:nth-child(5) > .col-6 {
+  padding: 5px;
 }
