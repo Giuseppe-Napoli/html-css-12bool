@@ -1,0 +1,17 @@
+[class*="col-"]{
+  background-color: #FEC0CB;
+  border: 1px solid black;
+  text-align: center;
+}
+.container{
+  height: 200px;
+  line-height: 200px;
+}
+.container .container > [class*="col-"]{
+  background-color: #F08080;
+  border: 1px solid white;
+}
+
+.container .col-6 > .container{
+  
+}
